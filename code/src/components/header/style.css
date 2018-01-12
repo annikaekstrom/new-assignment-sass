@@ -1,0 +1,34 @@
+body {
+  background: #ec4c4c; }
+
+.header {
+  background: #c1c1cf;
+  display: flex;
+  justify-content: center; }
+
+h1 {
+  text-align: center; }
+
+.from {
+  padding-right: 40px; }
+
+.input-container {
+  display: flex;
+  flex-direction: row; }
+
+.container {
+  width: 50%;
+  background: white;
+  margin: 20px; }
+
+.main {
+  background: #c1c1cf;
+  padding: 40px;
+  width: 600px; }
+
+button {
+  background: #ec4c4c;
+  padding: 10px;
+  margin-top: 20px;
+  border-style: none;
+  width: 164px; }
