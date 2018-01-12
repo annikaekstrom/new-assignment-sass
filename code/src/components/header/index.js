@@ -43,17 +43,21 @@ render() {
               <label htmlFor="from" className="from">
                 <h4>Flyg från</h4>
                 <input type="text" id="from" placeholder="Var flyger du ifrån?" value={this.state.from} onChange={this.handleFrom} />
+                <hr />
+                <p><a href="">Stockholm</a>, <a href="">Göteborg</a> eller <a href="">Malmö</a></p>
               </label>
 
               <label htmlFor="to" className="to">
                 <h4>Flyg till</h4>
-                <input type="text" id="to" placeholder="Var flyger du till?" value={this.state.to} onChange={this.handleTo} />
+                <input type="text" id="to" placeholder="Vart flyger du till?" value={this.state.to} onChange={this.handleTo} />
+                <hr />
               </label>
             </div>
             <br />
             <button type="submit">
               Boka
             </button>
+            <hr />
           </form>
         </section>
       </div>

@@ -2,7 +2,7 @@ body {
   background: #ec4c4c; }
 
 .header {
-  background: #c1c1cf;
+  background: #eeeef0;
   display: flex;
   justify-content: center; }
 
@@ -22,9 +22,15 @@ h1 {
   margin: 20px; }
 
 .main {
-  background: #c1c1cf;
+  background: #eeeef0;
   padding: 40px;
   width: 600px; }
+
+a {
+  text-decoration-style: dotted; }
+
+p {
+  font-size: 11px; }
 
 button {
   background: #ec4c4c;
@@ -32,3 +38,11 @@ button {
   margin-top: 20px;
   border-style: none;
   width: 164px; }
+
+button:hover {
+  background-color: #df7a7a; }
+
+hr {
+  width: 164px;
+  margin-left: 0;
+  color: white; }

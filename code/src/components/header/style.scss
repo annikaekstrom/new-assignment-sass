@@ -7,7 +7,7 @@ body {
 }
 
 @mixin nice-bg {
-  background: #c1c1cf;
+  background: #eeeef0;
 }
 
 @mixin bg {
@@ -42,10 +42,26 @@ padding-right: 40px;
   width: 600px;
 }
 
+a {
+  text-decoration-style: dotted;
+}
+p {
+  font-size: 11px;
+}
 button {
   @include red-bg;
   padding: 10px;
   margin-top: 20px;
   border-style: none;
   width: 164px;
+}
+
+button:hover {
+  background-color: #df7a7a;
+}
+
+hr {
+  width: 164px;
+  margin-left: 0;
+  color: white;
 }
